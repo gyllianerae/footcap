@@ -7,7 +7,7 @@
  */
 
 
-
+ @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 
 /*-----------------------------------*\
@@ -38,8 +38,8 @@
    * typography
    */
   
-  --ff-roboto: 'Roboto', sans-serif;
-  --ff-josefin-sans: 'Josefin Sans', sans-serif;
+  --ff-roboto: "Schoolbell", cursive;
+  --ff-josefin-sans: "Schoolbell", cursive;
 
   --fs-1: 3rem;
   --fs-2: 2.6rem;
@@ -384,6 +384,10 @@ body {
   padding-block: 20px;
 }
 
+.container .title {
+  font-size: 8rem;
+}
+
 .nav-open-btn {
   font-size: 30px;
   background: var(--bittersweet);
@@ -507,6 +511,20 @@ body {
   opacity: 1;
   pointer-events: all;
 }
+
+/*-----------------------------------*\
+ * #CA-CONTAINER
+\*-----------------------------------*/
+
+.ca {
+  text-align: center;
+  background-color: hsl(64, 87%, 73%);
+  font-size: 2rem;
+  padding: 20px;
+  height: 30px;
+  box-sizing:initial;
+}
+
 
 
 
@@ -1157,6 +1175,10 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
   .navbar-item:not(:last-child) { border: none; }
 
+  .navbar-item {
+    font-size: 3rem;
+  }
+
   .navbar-list,
   .nav-action-list { display: flex; }
 
@@ -1196,7 +1218,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
    * HERO
    */
 
-  .hero { height: 480px; }
+  .hero { height: 600px; }
 
 
 
@@ -1280,7 +1302,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
    * HERO
    */
 
-  .hero { height: 580px; }
+  .hero { height: 700px; }
 
   .hero .container { max-width: 1000px; }
 
