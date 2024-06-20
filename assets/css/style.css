@@ -168,6 +168,14 @@ body {
   text-transform: uppercase;
 }
 
+.buy-btn span {
+  font-size: 5rem;
+}
+
+.buy-btn {
+  margin-bottom: 2rem;
+}
+
 .btn {
   background: var(--background, var(--bittersweet));
   color: var(--color, var(--white));
@@ -177,6 +185,33 @@ body {
   gap: 5px;
   padding: 14px 25px;
   border: 1px solid var(--border-color, var(--bittersweet));
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  background: black; /* background color for contrast */
+  color: white; /* text color */
+  padding: 10px; /* padding for spacing */
+  font-size: 3rem; /* adjust font size as needed */
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll 70s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .btn-primary:is(:hover, :focus) {
@@ -551,9 +586,9 @@ body {
 .hero-text {
   color: var(--onyx);
   font-family: var(--ff-roboto);
-  font-size: var(--fs-8);
+  font-size: var(--fs-2);
   line-height: 1.8;
-  max-width: 46ch;
+  max-width: 40ch;
   margin-bottom: 25px;
 }
 
@@ -1307,11 +1342,61 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   .hero .container { max-width: 1000px; }
 
   .hero-text {
-    font-size: var(--fs-6);
-    max-width: 50ch;
+    font-size: var(--fs-4);
+    max-width: 40ch;
   }
 
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
+  .hero-title, .title {
+    animation: slideIn 1s ease-out, pulse 2s infinite;
+  }
+
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background: black; /* background color for contrast */
+    color: white; /* text color */
+    padding: 10px; /* padding for spacing */
+    font-size: 3rem; /* adjust font size as needed */
+    margin: 10px;
+  }
+
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 70s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 
   /**
    * PRODUCTS
