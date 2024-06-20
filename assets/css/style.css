@@ -429,6 +429,7 @@ body {
   height: 50px;
   background-color: var(--pink);
   width: 40%;
+  color: var(--bg);
 }
 
 .header {
