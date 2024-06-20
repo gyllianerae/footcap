@@ -26,7 +26,7 @@
   --bs-gray-400: #ced4da;
   --bs-gray-500: #adb5bd;
   --bs-gray-600: #6c757d;
-  --bs-gray-400: #495057;
+  --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #0d6efd;
@@ -305,7 +305,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 dd {
@@ -3876,7 +3876,7 @@ textarea.form-control-lg {
 }
 .nav-underline .nav-link.active,
 .nav-underline .show > .nav-link {
-  font-weight: 400;
+  font-weight: 700;
   color: var(--bs-nav-underline-link-active-color);
   border-bottom-color: currentcolor;
 }
@@ -4788,7 +4788,7 @@ textarea.form-control-lg {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
   --bs-badge-font-size: 0.75em;
-  --bs-badge-font-weight: 400;
+  --bs-badge-font-weight: 700;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: var(--bs-border-radius);
   display: inline-block;
@@ -4835,7 +4835,7 @@ textarea.form-control-lg {
 }
 
 .alert-link {
-  font-weight: 400;
+  font-weight: 700;
   color: var(--bs-alert-link-color);
 }
 
@@ -8346,7 +8346,7 @@ textarea.form-control-lg {
 }
 
 .fw-bold {
-  font-weight: 400 !important;
+  font-weight: 700 !important;
 }
 
 .fw-bolder {

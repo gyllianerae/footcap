@@ -38,3 +38,35 @@ window.addEventListener("scroll", function () {
     goTopBtn.classList.remove("active");
   }
 });
+
+/**copy ca to clipboard */
+function copyToClipboard() {
+  // Select the text element
+  var copyText = document.getElementById("copyText");
+
+  // Create a textarea element to temporarily hold the text to copy
+  var tempTextArea = document.createElement("textarea");
+  tempTextArea.value = copyText.textContent;
+
+  // Append the textarea to the body
+  document.body.appendChild(tempTextArea);
+
+  // Select the text in the textarea
+  tempTextArea.select();
+  tempTextArea.setSelectionRange(0, 99999); /* For mobile devices */
+
+  // Copy the selected text to the clipboard
+  document.execCommand("copy");
+
+  // Remove the temporary textarea
+  document.body.removeChild(tempTextArea);
+
+  // Show Bootstrap alert for success
+  var copyAlert = document.getElementById("copyAlert");
+  copyAlert.classList.add("show");
+
+  // Hide the alert after 3 seconds
+  setTimeout(function() {
+      copyAlert.classList.remove("show");
+  }, 2000);
+}
