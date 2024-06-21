@@ -427,9 +427,10 @@ body {
 
 .alert {
   height: 50px;
-  background-color: var(--pink);
-  width: 40%;
+  background-color: var(--ca);
   color: var(--bg);
+  margin: 5%;
+  font-size: 2rem;
 }
 
 .header {
@@ -1022,7 +1023,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
 .copyright-link {
   display: inline-block;
-  color: var(--bittersweet);
+  color: var(--bg);
 }
 
 

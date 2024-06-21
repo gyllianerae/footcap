@@ -55,11 +55,11 @@
   <header class="header" data-header>
     <section class="ca">
       <div class="">
-        <p>CA: <span id="copyText">TO BE ANNOUNCED</span> <span id="copyButton" onclick="copyToClipboard()"><i class="ri-file-copy-line"></i></span></p>
+        <p id="copyButton" onclick="copyToClipboard()">CA: <span id="copyText">TO BE ANNOUNCED</span> <span><i class="ri-file-copy-line"></i></span></p>
       </div>
        <!-- Bootstrap Alert for Copy Notification -->
     <div class="alert alert-success alert-dismissible fade position-fixed bottom-0 end-0 p-3" role="alert" id="copyAlert">
-      <strong>Success!</strong> CA copied.
+      <strong>CA copied. </strong>
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
       </button>
@@ -82,10 +82,6 @@
           <ion-icon name="close-outline"></ion-icon>
         </button>
 
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
-        </a>
-
         <ul class="navbar-list">
 
           <li class="navbar-item">
@@ -93,7 +89,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" target="_blank" class="navbar-link">Meme Studio</a>
+            <a href="mememaker/index.html" target="_blank" class="navbar-link">Meme Studio</a>
           </li>
 
           <li class="navbar-item">
