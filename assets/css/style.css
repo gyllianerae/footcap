@@ -197,19 +197,20 @@ body {
 }
 
 .donate-btn {
-  background: var(--pink);
-  color: var(--bg);
+  background: black;
+  color: white;
   padding: 2rem 4rem;
   font-size: 3rem;
   border-radius: 100px;
-  border: 5px solid var(--blue);
+  border: 5px solid black;
   width: 50%;
   margin: auto;
   text-align: center;
 }
 
 .donate-btn:hover {
-  color: var(--blue);
+  color: black;
+  background: white;
 }
 
 .donate-card .donate-text {
