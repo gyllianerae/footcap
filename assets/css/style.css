@@ -1145,7 +1145,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     margin-top: 5rem;
    }
 
-  .hero-text { font-size: var(--fs-7); }
+  .hero-text { font-size: var(--fs-2); }
 
 
 
