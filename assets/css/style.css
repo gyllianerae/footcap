@@ -184,6 +184,41 @@ body {
   background-color: var(--ca);
 }
 
+.donate-card {
+  background-color: var(--blue);
+  border-radius: 100px;
+  border: 5px solid var(--blue);
+  padding: 2rem;
+}
+
+.dogstrust {
+  border: 8px solid var(--blue);
+  border-radius: 50px;
+}
+
+.donate-btn {
+  background: var(--pink);
+  color: var(--bg);
+  padding: 2rem 4rem;
+  font-size: 3rem;
+  border-radius: 100px;
+  border: 5px solid var(--blue);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.donate-btn:hover {
+  color: var(--blue);
+}
+
+.donate-card .donate-text {
+  font-size: 2rem;
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
 .btn {
   background: var(--background, var(--bittersweet));
   color: var(--color, var(--white));
