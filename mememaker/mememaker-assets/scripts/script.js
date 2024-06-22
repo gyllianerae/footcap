@@ -173,7 +173,13 @@ AddParts(mouthList, 'mouth',0, 'mememaker-assets/img/none.png', undefined, true)
 AddParts(mouthList, 'mouth',1, 'mememaker-assets/img/icons/mouth/001.png', 'mememaker-assets/img/mouth/1.png');
 
 AddParts(necklaceList, 'necklace',0, 'mememaker-assets/img/none.png', undefined, true);
-AddParts(necklaceList, 'necklace',1, 'mememaker-assets/img/icons/necklace/001.png', 'mememaker-assets/img/necklace/1.png');
+AddParts(necklaceList, 'necklace',1, 'mememaker-assets/img/icons/necklace/1.png', 'mememaker-assets/img/necklace/1.png');
+AddParts(necklaceList, 'necklace',2, 'mememaker-assets/img/icons/necklace/2.png', 'mememaker-assets/img/necklace/2.png');
+AddParts(necklaceList, 'necklace',3, 'mememaker-assets/img/icons/necklace/3.png', 'mememaker-assets/img/necklace/3.png');
+AddParts(necklaceList, 'necklace',4, 'mememaker-assets/img/icons/necklace/4.png', 'mememaker-assets/img/necklace/4.png');
+AddParts(necklaceList, 'necklace',5, 'mememaker-assets/img/icons/necklace/5.png', 'mememaker-assets/img/necklace/5.png');
+AddParts(necklaceList, 'necklace',6, 'mememaker-assets/img/icons/necklace/6.png', 'mememaker-assets/img/necklace/6.png');
+AddParts(necklaceList, 'necklace',7, 'mememaker-assets/img/icons/necklace/7.png', 'mememaker-assets/img/necklace/7.png');
 
 AddParts(clothesList, 'clothes', 0, 'mememaker-assets/img/none.png', undefined, true);
 AddParts(clothesList, 'clothes', 1, 'mememaker-assets/img/icons/clothes/1.png', 'mememaker-assets/img/clothes/1.png');
@@ -186,6 +192,7 @@ AddParts(clothesList, 'clothes', 7, 'mememaker-assets/img/icons/clothes/7.png', 
 AddParts(clothesList, 'clothes', 8, 'mememaker-assets/img/icons/clothes/8.png', 'mememaker-assets/img/clothes/8.png');
 AddParts(clothesList, 'clothes', 9, 'mememaker-assets/img/icons/clothes/9.png', 'mememaker-assets/img/clothes/9.png');
 AddParts(clothesList, 'clothes', 10, 'mememaker-assets/img/icons/clothes/10.png', 'mememaker-assets/img/clothes/10.png');
+AddParts(clothesList, 'clothes', 11, 'mememaker-assets/img/icons/clothes/11.png', 'mememaker-assets/img/clothes/11.png');
 
 AddParts(bgList, 'bg', 1, 'mememaker-assets/img/icons/background/1.png', 'mememaker-assets/img/background/1.png', true);
 AddParts(bgList, 'bg', 2, 'mememaker-assets/img/icons/background/2.png', 'mememaker-assets/img/background/2.png');
@@ -296,9 +303,14 @@ const maxTranslateXValues = {
         large: -220
     },
     clothes: {
-        small: -800,
-        medium: -800,
-        large: -530
+        small: -900,
+        medium: -850,
+        large: -700
+    },
+    necklace: {
+        small: -580,
+        medium: -560,
+        large: -500
     },
     bg: {
         small: -700,
@@ -333,6 +345,8 @@ function updateMaxTranslateX() {
     mouthRightmaxTranslateX = calculateMaxTranslateX('mouth');
     // Update maxTranslateX values for clothes list
     clothesRightmaxTranslateX = calculateMaxTranslateX('clothes');
+    // Update maxTranslateX values for necklace list
+    necklaceRightmaxTranslateX = calculateMaxTranslateX('necklace');
     // Update maxTranslateX values for bg list
     bgRightmaxTranslateX = calculateMaxTranslateX('bg');
 }
@@ -453,6 +467,34 @@ clothesRightBtn.onclick = () => {
         clothesRightcurrentTranslateX = clothesRightmaxTranslateX;
     }
     clothesList.style.transform = `translateX(${clothesRightcurrentTranslateX}px)`
+}
+
+//necklace left and right buttons
+
+const necklaceLeftBtn = document.getElementById('necklace-left');
+const necklaceLeftmaxTranslateX = 0; // Adjust the maximum translation as needed
+const necklaceLefttranslateStep = -200; // Adjust the step size as needed
+
+necklaceLeftBtn.onclick = () => {
+    let necklaceLeftcurrentTranslateX = parseInt(necklaceList.style.transform.replace('translateX(', '').replace('px)', '')) || 0;
+    necklaceLeftcurrentTranslateX -= necklaceLefttranslateStep;
+    if (necklaceLeftcurrentTranslateX > necklaceLeftmaxTranslateX) {
+        necklaceLeftcurrentTranslateX = necklaceLeftmaxTranslateX;
+    }
+    necklaceList.style.transform = `translateX(${necklaceLeftcurrentTranslateX}px)`;
+}
+
+const necklaceRightBtn = document.getElementById('necklace-right');
+// const necklaceRightmaxTranslateX = -1300;
+const necklaceRighttranslateStep = 200; // Adjust the step size as needed
+
+necklaceRightBtn.onclick = () => {
+    let necklaceRightcurrentTranslateX = parseInt(necklaceList.style.transform.replace('translateX(', '').replace('px)', '')) || 0;
+    necklaceRightcurrentTranslateX -= necklaceRighttranslateStep;
+    if (necklaceRightcurrentTranslateX < necklaceRightmaxTranslateX) {
+        necklaceRightcurrentTranslateX = necklaceRightmaxTranslateX;
+    }
+    necklaceList.style.transform = `translateX(${necklaceRightcurrentTranslateX}px)`;
 }
 
 //bg left and right buttons
