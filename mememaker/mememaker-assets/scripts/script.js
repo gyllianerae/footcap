@@ -160,10 +160,10 @@ AddParts(headList, 'head',3, 'mememaker-assets/img/icons/head/003.png', 'mememak
 // AddParts(headList, 'head',12, 'mememaker-assets/img/icons/head/012.png', 'mememaker-assets/img/head/012.png');
 
 AddParts(eyesList, 'eyes',0, 'mememaker-assets/img/none.png', undefined, true);
-AddParts(eyesList, 'eyes',1, 'mememaker-assets/img/icons/eyes/001.png', 'mememaker-assets/img/eyes/001.png');
-// AddParts(eyesList, 'eyes',2, 'mememaker-assets/img/icons/eyes/002.png', 'mememaker-assets/img/eyes/002.png');
-// AddParts(eyesList, 'eyes',3, 'mememaker-assets/img/icons/eyes/003.png', 'mememaker-assets/img/eyes/003.png');
-// AddParts(eyesList, 'eyes',4, 'mememaker-assets/img/icons/eyes/004.png', 'mememaker-assets/img/eyes/004.png');
+AddParts(eyesList, 'eyes',1, 'mememaker-assets/img/icons/eyes/1.png', 'mememaker-assets/img/eyes/1.png');
+AddParts(eyesList, 'eyes',2, 'mememaker-assets/img/icons/eyes/2.png', 'mememaker-assets/img/eyes/2.png');
+AddParts(eyesList, 'eyes',3, 'mememaker-assets/img/icons/eyes/3.png', 'mememaker-assets/img/eyes/3.png');
+AddParts(eyesList, 'eyes',4, 'mememaker-assets/img/icons/eyes/4.png', 'mememaker-assets/img/eyes/4.png');
 // AddParts(eyesList, 'eyes',5, 'mememaker-assets/img/icons/eyes/005.png', 'mememaker-assets/img/eyes/005.png');
 // AddParts(eyesList, 'eyes',6, 'mememaker-assets/img/icons/eyes/006.png', 'mememaker-assets/img/eyes/006.png');
 // AddParts(eyesList, 'eyes',7, 'mememaker-assets/img/icons/eyes/007.png', 'mememaker-assets/img/eyes/007.png');
@@ -176,20 +176,27 @@ AddParts(necklaceList, 'necklace',0, 'mememaker-assets/img/none.png', undefined,
 AddParts(necklaceList, 'necklace',1, 'mememaker-assets/img/icons/necklace/001.png', 'mememaker-assets/img/necklace/1.png');
 
 AddParts(clothesList, 'clothes', 0, 'mememaker-assets/img/none.png', undefined, true);
-AddParts(clothesList, 'clothes', 1, 'mememaker-assets/img/icons/clothes/001.png', 'mememaker-assets/img/clothes/1.png');
-AddParts(clothesList, 'clothes', 2, 'mememaker-assets/img/icons/clothes/002.png', 'mememaker-assets/img/clothes/2.png');
-AddParts(clothesList, 'clothes', 3, 'mememaker-assets/img/icons/clothes/003.png', 'mememaker-assets/img/clothes/3.png');
-AddParts(clothesList, 'clothes', 4, 'mememaker-assets/img/icons/clothes/004.png', 'mememaker-assets/img/clothes/4.png');
-AddParts(clothesList, 'clothes', 5, 'mememaker-assets/img/icons/clothes/005.png', 'mememaker-assets/img/clothes/5.png');
+AddParts(clothesList, 'clothes', 1, 'mememaker-assets/img/icons/clothes/1.png', 'mememaker-assets/img/clothes/1.png');
+AddParts(clothesList, 'clothes', 2, 'mememaker-assets/img/icons/clothes/2.png', 'mememaker-assets/img/clothes/2.png');
+AddParts(clothesList, 'clothes', 3, 'mememaker-assets/img/icons/clothes/3.png', 'mememaker-assets/img/clothes/3.png');
+AddParts(clothesList, 'clothes', 4, 'mememaker-assets/img/icons/clothes/4.png', 'mememaker-assets/img/clothes/4.png');
+AddParts(clothesList, 'clothes', 5, 'mememaker-assets/img/icons/clothes/5.png', 'mememaker-assets/img/clothes/5.png');
+AddParts(clothesList, 'clothes', 6, 'mememaker-assets/img/icons/clothes/6.png', 'mememaker-assets/img/clothes/6.png');
+AddParts(clothesList, 'clothes', 7, 'mememaker-assets/img/icons/clothes/7.png', 'mememaker-assets/img/clothes/7.png');
+AddParts(clothesList, 'clothes', 8, 'mememaker-assets/img/icons/clothes/8.png', 'mememaker-assets/img/clothes/8.png');
+AddParts(clothesList, 'clothes', 9, 'mememaker-assets/img/icons/clothes/9.png', 'mememaker-assets/img/clothes/9.png');
+AddParts(clothesList, 'clothes', 10, 'mememaker-assets/img/icons/clothes/10.png', 'mememaker-assets/img/clothes/10.png');
 
-AddParts(bgList, 'bg', 1, 'mememaker-assets/img/icons/background/001.png', 'mememaker-assets/img/background/001.png', true);
-AddParts(bgList, 'bg', 2, 'mememaker-assets/img/icons/background/002.png', 'mememaker-assets/img/background/002.png');
-// AddParts(bgList, 'bg', 3, 'mememaker-assets/img/icons/background/003.png', 'mememaker-assets/img/background/003.png');
-// AddParts(bgList, 'bg', 4, 'mememaker-assets/img/icons/background/004.png', 'mememaker-assets/img/background/004.png');
-// AddParts(bgList, 'bg', 5, 'mememaker-assets/img/icons/background/005.png', 'mememaker-assets/img/background/005.png');
-// AddParts(bgList, 'bg', 6, 'mememaker-assets/img/icons/background/006.png', 'mememaker-assets/img/background/006.png');
-// AddParts(bgList, 'bg', 7, 'mememaker-assets/img/icons/background/007.png', 'mememaker-assets/img/background/007.png');
-// AddParts(bgList, 'bg', 8, 'mememaker-assets/img/icons/background/008.png', 'mememaker-assets/img/background/008.png');
+AddParts(bgList, 'bg', 1, 'mememaker-assets/img/icons/background/1.png', 'mememaker-assets/img/background/1.png', true);
+AddParts(bgList, 'bg', 2, 'mememaker-assets/img/icons/background/2.png', 'mememaker-assets/img/background/2.png');
+AddParts(bgList, 'bg', 3, 'mememaker-assets/img/icons/background/3.png', 'mememaker-assets/img/background/3.png');
+AddParts(bgList, 'bg', 4, 'mememaker-assets/img/icons/background/4.png', 'mememaker-assets/img/background/4.png');
+AddParts(bgList, 'bg', 5, 'mememaker-assets/img/icons/background/5.png', 'mememaker-assets/img/background/5.png');
+AddParts(bgList, 'bg', 6, 'mememaker-assets/img/icons/background/6.png', 'mememaker-assets/img/background/6.png');
+AddParts(bgList, 'bg', 7, 'mememaker-assets/img/icons/background/7.png', 'mememaker-assets/img/background/7.png');
+AddParts(bgList, 'bg', 8, 'mememaker-assets/img/icons/background/8.png', 'mememaker-assets/img/background/8.png');
+AddParts(bgList, 'bg', 9, 'mememaker-assets/img/icons/background/9.png', 'mememaker-assets/img/background/9.png');
+AddParts(bgList, 'bg', 10, 'mememaker-assets/img/icons/background/10.png', 'mememaker-assets/img/background/10.png');
 
 
 
@@ -289,14 +296,14 @@ const maxTranslateXValues = {
         large: -220
     },
     clothes: {
-        small: -1510,
-        medium: -1280,
-        large: -1500
+        small: -800,
+        medium: -800,
+        large: -530
     },
     bg: {
-        small: -520,
-        medium: -280,
-        large: -220
+        small: -700,
+        medium: -700,
+        large: -500
     }
 };
 
