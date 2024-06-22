@@ -146,16 +146,16 @@ function selectParts(type, idx) {
 AddParts(bodyList, 'body',0, undefined, 'mememaker-assets/img/base.png', true);
 
 AddParts(headList, 'head',0, 'mememaker-assets/img/none.png', undefined, true);
-AddParts(headList, 'head',1, 'mememaker-assets/img/icons/head/001.png', 'mememaker-assets/img/head/1.png');
-AddParts(headList, 'head',2, 'mememaker-assets/img/icons/head/002.png', 'mememaker-assets/img/head/2.png');
-AddParts(headList, 'head',3, 'mememaker-assets/img/icons/head/003.png', 'mememaker-assets/img/head/3.png');
-// AddParts(headList, 'head',4, 'mememaker-assets/img/icons/head/004.png', 'mememaker-assets/img/head/004.png');
-// AddParts(headList, 'head',5, 'mememaker-assets/img/icons/head/005.png', 'mememaker-assets/img/head/005.png');
-// AddParts(headList, 'head',6, 'mememaker-assets/img/icons/head/006.png', 'mememaker-assets/img/head/006.png');
-// AddParts(headList, 'head',7, 'mememaker-assets/img/icons/head/007.png', 'mememaker-assets/img/head/007.png');
-// AddParts(headList, 'head',8, 'mememaker-assets/img/icons/head/008.png', 'mememaker-assets/img/head/008.png');
-// AddParts(headList, 'head',9, 'mememaker-assets/img/icons/head/009.png', 'mememaker-assets/img/head/009.png');
-// AddParts(headList, 'head',10, 'mememaker-assets/img/icons/head/010.png', 'mememaker-assets/img/head/010.png');
+AddParts(headList, 'head',1, 'mememaker-assets/img/icons/head/1.png', 'mememaker-assets/img/head/1.png');
+AddParts(headList, 'head',2, 'mememaker-assets/img/icons/head/2.png', 'mememaker-assets/img/head/2.png');
+AddParts(headList, 'head',3, 'mememaker-assets/img/icons/head/3.png', 'mememaker-assets/img/head/3.png');
+AddParts(headList, 'head',4, 'mememaker-assets/img/icons/head/4.png', 'mememaker-assets/img/head/4.png');
+AddParts(headList, 'head',5, 'mememaker-assets/img/icons/head/5.png', 'mememaker-assets/img/head/5.png');
+AddParts(headList, 'head',6, 'mememaker-assets/img/icons/head/6.png', 'mememaker-assets/img/head/6.png');
+AddParts(headList, 'head',7, 'mememaker-assets/img/icons/head/7.png', 'mememaker-assets/img/head/7.png');
+AddParts(headList, 'head',8, 'mememaker-assets/img/icons/head/8.png', 'mememaker-assets/img/head/8.png');
+AddParts(headList, 'head',9, 'mememaker-assets/img/icons/head/9.png', 'mememaker-assets/img/head/9.png');
+AddParts(headList, 'head',10, 'mememaker-assets/img/icons/head/10.png', 'mememaker-assets/img/head/10.png');
 // AddParts(headList, 'head',11, 'mememaker-assets/img/icons/head/011.png', 'mememaker-assets/img/head/011.png');
 // AddParts(headList, 'head',12, 'mememaker-assets/img/icons/head/012.png', 'mememaker-assets/img/head/012.png');
 
@@ -164,13 +164,19 @@ AddParts(eyesList, 'eyes',1, 'mememaker-assets/img/icons/eyes/1.png', 'mememaker
 AddParts(eyesList, 'eyes',2, 'mememaker-assets/img/icons/eyes/2.png', 'mememaker-assets/img/eyes/2.png');
 AddParts(eyesList, 'eyes',3, 'mememaker-assets/img/icons/eyes/3.png', 'mememaker-assets/img/eyes/3.png');
 AddParts(eyesList, 'eyes',4, 'mememaker-assets/img/icons/eyes/4.png', 'mememaker-assets/img/eyes/4.png');
-// AddParts(eyesList, 'eyes',5, 'mememaker-assets/img/icons/eyes/005.png', 'mememaker-assets/img/eyes/005.png');
+AddParts(eyesList, 'eyes',5, 'mememaker-assets/img/icons/eyes/5.png', 'mememaker-assets/img/eyes/5.png');
 // AddParts(eyesList, 'eyes',6, 'mememaker-assets/img/icons/eyes/006.png', 'mememaker-assets/img/eyes/006.png');
 // AddParts(eyesList, 'eyes',7, 'mememaker-assets/img/icons/eyes/007.png', 'mememaker-assets/img/eyes/007.png');
 // AddParts(eyesList, 'eyes',8, 'mememaker-assets/img/icons/eyes/008.png', 'mememaker-assets/img/eyes/008.png');
 
 AddParts(mouthList, 'mouth',0, 'mememaker-assets/img/none.png', undefined, true);
-AddParts(mouthList, 'mouth',1, 'mememaker-assets/img/icons/mouth/001.png', 'mememaker-assets/img/mouth/1.png');
+AddParts(mouthList, 'mouth',1, 'mememaker-assets/img/icons/mouth/1.png', 'mememaker-assets/img/mouth/1.png');
+AddParts(mouthList, 'mouth',2, 'mememaker-assets/img/icons/mouth/2.png', 'mememaker-assets/img/mouth/2.png');
+AddParts(mouthList, 'mouth',3, 'mememaker-assets/img/icons/mouth/3.png', 'mememaker-assets/img/mouth/3.png');
+AddParts(mouthList, 'mouth',4, 'mememaker-assets/img/icons/mouth/4.png', 'mememaker-assets/img/mouth/4.png');
+AddParts(mouthList, 'mouth',5, 'mememaker-assets/img/icons/mouth/5.png', 'mememaker-assets/img/mouth/5.png');
+AddParts(mouthList, 'mouth',6, 'mememaker-assets/img/icons/mouth/6.png', 'mememaker-assets/img/mouth/6.png');
+AddParts(mouthList, 'mouth',7, 'mememaker-assets/img/icons/mouth/7.png', 'mememaker-assets/img/mouth/7.png');
 
 AddParts(necklaceList, 'necklace',0, 'mememaker-assets/img/none.png', undefined, true);
 AddParts(necklaceList, 'necklace',1, 'mememaker-assets/img/icons/necklace/1.png', 'mememaker-assets/img/necklace/1.png');
@@ -193,6 +199,7 @@ AddParts(clothesList, 'clothes', 8, 'mememaker-assets/img/icons/clothes/8.png', 
 AddParts(clothesList, 'clothes', 9, 'mememaker-assets/img/icons/clothes/9.png', 'mememaker-assets/img/clothes/9.png');
 AddParts(clothesList, 'clothes', 10, 'mememaker-assets/img/icons/clothes/10.png', 'mememaker-assets/img/clothes/10.png');
 AddParts(clothesList, 'clothes', 11, 'mememaker-assets/img/icons/clothes/11.png', 'mememaker-assets/img/clothes/11.png');
+AddParts(clothesList, 'clothes', 12, 'mememaker-assets/img/icons/clothes/12.png', 'mememaker-assets/img/clothes/12.png');
 
 AddParts(bgList, 'bg', 1, 'mememaker-assets/img/icons/background/1.png', 'mememaker-assets/img/background/1.png', true);
 AddParts(bgList, 'bg', 2, 'mememaker-assets/img/icons/background/2.png', 'mememaker-assets/img/background/2.png');
@@ -262,12 +269,12 @@ resetBtn.onclick = () => {
 const randomBtn = document.getElementById('random-btn');
 
 randomBtn.onclick = () => {
-    const randHead = randRange(0, 3);
-    const randEyes = randRange(0, 1);
-    const randMouth = randRange(0, 1);
-    const randBg = randRange(1, 2);
-    const randClothes = randRange(0, 5);
-    const randNecklace = randRange(0, 1);
+    const randHead = randRange(0, 10);
+    const randEyes = randRange(0, 5);
+    const randMouth = randRange(0, 7);
+    const randBg = randRange(1, 10);
+    const randClothes = randRange(0, 12);
+    const randNecklace = randRange(0, 7);
 
     selectParts('head', randHead);
     selectParts('eyes', randEyes);
@@ -290,32 +297,32 @@ const maxTranslateXValues = {
     head: {
         small: -970,
         medium: -730,
-        large: -670
+        large: -580
     },
     eyes: {
         small: -520,
         medium: -280,
-        large: -220
+        large: -110
     },
     mouth: {
         small: -520,
         medium: -280,
-        large: -220
+        large: -290
     },
     clothes: {
         small: -900,
         medium: -850,
-        large: -700
+        large: -730
     },
     necklace: {
         small: -580,
         medium: -560,
-        large: -500
+        large: -300
     },
     bg: {
         small: -700,
         medium: -700,
-        large: -500
+        large: -470
     }
 };
 
