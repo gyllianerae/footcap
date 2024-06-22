@@ -151,6 +151,7 @@ h1 {
     margin: 0rem 1rem;
     font-size: 1.5rem;
     color: black;
+    display: inline-block;
 }
 
 #reset-btn:hover, #random-btn:hover, #download-btn:hover {
