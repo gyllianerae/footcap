@@ -177,7 +177,7 @@ body {
 }
 
 .buy-btn {
-  margin-bottom: 2rem;
+  
 }
 
 .buy-btn:hover {
@@ -512,6 +512,7 @@ body {
 
 .hero-image {
   animation: bounce 1.5s infinite;
+  width: 120%;
 }
 
 .container {
@@ -1460,7 +1461,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   .hero .container { max-width: 1000px; }
 
   .hero-text {
-    font-size: var(--fs-4);
+    font-size: var(--fs-2);
     max-width: 40ch;
   }
 
