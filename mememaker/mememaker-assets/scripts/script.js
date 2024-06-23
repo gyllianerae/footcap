@@ -199,7 +199,6 @@ AddParts(clothesList, 'clothes', 8, 'mememaker-assets/img/icons/clothes/8.png', 
 AddParts(clothesList, 'clothes', 9, 'mememaker-assets/img/icons/clothes/9.png', 'mememaker-assets/img/clothes/9.png');
 AddParts(clothesList, 'clothes', 10, 'mememaker-assets/img/icons/clothes/10.png', 'mememaker-assets/img/clothes/10.png');
 AddParts(clothesList, 'clothes', 11, 'mememaker-assets/img/icons/clothes/11.png', 'mememaker-assets/img/clothes/11.png');
-AddParts(clothesList, 'clothes', 12, 'mememaker-assets/img/icons/clothes/12.png', 'mememaker-assets/img/clothes/12.png');
 
 AddParts(bgList, 'bg', 1, 'mememaker-assets/img/icons/background/1.png', 'mememaker-assets/img/background/1.png', true);
 AddParts(bgList, 'bg', 2, 'mememaker-assets/img/icons/background/2.png', 'mememaker-assets/img/background/2.png');
@@ -273,7 +272,7 @@ randomBtn.onclick = () => {
     const randEyes = randRange(0, 5);
     const randMouth = randRange(0, 7);
     const randBg = randRange(1, 10);
-    const randClothes = randRange(0, 12);
+    const randClothes = randRange(0, 11);
     const randNecklace = randRange(0, 7);
 
     selectParts('head', randHead);
@@ -310,9 +309,9 @@ const maxTranslateXValues = {
         large: -290
     },
     clothes: {
-        small: -900,
-        medium: -850,
-        large: -730
+        small: -850,
+        medium: -800,
+        large: -670
     },
     necklace: {
         small: -580,
