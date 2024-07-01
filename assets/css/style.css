@@ -700,7 +700,7 @@ body {
 .hero-text {
   color: var(--onyx);
   font-family: var(--ff-roboto);
-  font-size: var(--fs-2);
+  font-size: 0.5rem;
   line-height: 1.8;
   max-width: 40ch;
   margin-bottom: 25px;
@@ -1146,7 +1146,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     margin-top: 5rem;
    }
 
-  .hero-text { font-size: var(--fs-2); }
+  .hero-text { font-size: 1rem; }
 
 
 
@@ -1461,8 +1461,8 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   .hero .container { max-width: 1000px; }
 
   .hero-text {
-    font-size: var(--fs-2);
-    max-width: 40ch;
+    font-size: 2rem;
+    max-width: 70ch;
   }
 
   @keyframes slideIn {
